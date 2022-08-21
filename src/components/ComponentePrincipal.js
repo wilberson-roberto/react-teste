@@ -1,9 +1,10 @@
 import Card from './Card'
 
 const ComponentePrincipal = () => {
+
     return (
       <main className='ComponentePrincipal'>
-        Conteúdo Principal
+        <h2>Conteúdo Principal</h2>
 
         <div>
             <Card conteudo='Alguma Coisa'/>
