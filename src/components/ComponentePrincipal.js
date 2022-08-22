@@ -1,4 +1,5 @@
 import Card from './Card'
+import Contador from './Contador'
 
 const ComponentePrincipal = () => {
 
@@ -12,6 +13,8 @@ const ComponentePrincipal = () => {
         </div>
 
         <a href='#'>Link</a>
+
+        <Contador />
       </main>
     )
   }

@@ -1,21 +1,16 @@
-import logo from '../logo.svg';
+
 
 const Header = () => {
     return (
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Wilberson Roberto
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+        <div className="main">
+          <div className="menu">
+            <div className="logo">
+              <h3>Wilberson Roberto</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     )
 }
 

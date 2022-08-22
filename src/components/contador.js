@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-const [valor, setValor] = useState(0)
+const Contador = () => {
+  const [valor, setValor] = useState(0)
 
 const add = () => {
     setValor(valor + 1)
@@ -18,3 +19,6 @@ const add = () => {
       <button onClick={remove}>Diminuir</button>
     </>
   )
+}
+
+  export default Contador;
